@@ -12,7 +12,7 @@
 <script lang="ts" setup>
 import { Todo, Meta } from 'components/models';
 import ExampleComponent from 'components/ExampleComponent.vue';
-import { defineComponent, ref } from 'vue';
+import { ref } from 'vue';
 const todos = ref<Todo[]>([
   {
     id: 1,
